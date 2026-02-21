@@ -40,6 +40,7 @@ class _SplashScreenState extends State<SplashScreen>
 
     _ctrl.forward();
 
+
     // Navigate to Home after 2s
     Future.delayed(const Duration(milliseconds: 2200), () {
       if (mounted) {
